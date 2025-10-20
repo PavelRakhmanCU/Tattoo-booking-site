@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { IoHomeSharp } from "react-icons/io5";
 import { GrGallery } from "react-icons/gr";
 import { RiHealthBookFill } from "react-icons/ri";
-import { FaPencil } from "react-icons/fa6";
 import { FaAngleDown } from "react-icons/fa";
 import { GlobalContext } from "../context/GlobalContext";
 import { FaShoppingCart } from "react-icons/fa";
