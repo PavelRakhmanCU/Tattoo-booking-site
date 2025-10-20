@@ -1,0 +1,18 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+function ArtistInfo() {
+    const navigate = useNavigate()
+    const handleBookAppointmetClick = ()=>{
+        navigate('/booking')
+    }
+  return (
+    <section className="artist-info">
+      <h2 className="artist-name">Sogdiana Kashaeva</h2>
+      <h3>Micro Realism & Painterly Tattoos</h3>
+      <div className="artist-portrait"></div>
+      <button className="book-btn" onClick={handleBookAppointmetClick}>Book an appointment</button>
+    </section>
+  );
+}
+
+export default ArtistInfo;
