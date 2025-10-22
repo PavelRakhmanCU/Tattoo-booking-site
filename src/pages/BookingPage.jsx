@@ -6,7 +6,7 @@ import { GlobalContext } from '../context/GlobalContext';
 
 function Booking() {
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const { toggleSwitchState, setToggleSwitchState } = useContext(GlobalContext);
+  const { setToggleSwitchState } = useContext(GlobalContext);
 
   const handleFormInteraction = () => {
     setToggleSwitchState(false);
