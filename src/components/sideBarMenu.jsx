@@ -42,7 +42,7 @@ function SideBarMenu() {
               <li><Link to="/gallery1">Color</Link></li>
               <li><Link to="/gallery2">Black and Gray</Link></li>
               <li><Link to="/gallery3">Cover up</Link></li>
-              <li><Link to="/gallery4">Post vasectomy reconstruction</Link></li>
+              <li><Link to="/gallery4">Post-mastectomy reconstruction tattoo</Link></li>
             </ul>
           </div>
         </div>

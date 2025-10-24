@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { CgMenuGridR } from "react-icons/cg";
 import { GlobalContext } from "../context/GlobalContext";
-
+import { IoLogoInstagram } from "react-icons/io";
 function ToggleSwitch() {
   const { toggleSwitchState, setToggleSwitchState } = useContext(GlobalContext);
   
