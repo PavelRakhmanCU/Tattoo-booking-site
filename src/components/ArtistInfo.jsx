@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { FaInstagram } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import { BiFontSize } from "react-icons/bi";
+
+
+
 function ArtistInfo() {
     const navigate = useNavigate()
     const handleBookAppointmetClick = ()=>{
