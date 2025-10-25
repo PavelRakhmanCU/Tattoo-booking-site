@@ -33,7 +33,7 @@ function SideBarMenu() {
       </div>
       <div className="accordeon-item">
         <div className="accordeon-header" onClick={() => handleAccordionToggle(1)}>
-          <span className="icon"><GrGallery></GrGallery></span>
+          <span className="icon" onClick={()=>setToggleSwitchState(!toggleSwitchState)}><GrGallery></GrGallery></span>
           <span className="title">Galleries <FaAngleDown></FaAngleDown></span>
         </div>
         <div className={`accordeon-body ${activeIndex === 1 && toggleSwitchState ? 'active' : ''}`}>
