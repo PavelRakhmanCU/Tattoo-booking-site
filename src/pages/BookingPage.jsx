@@ -20,6 +20,7 @@ function Booking() {
     formData.append('height', data.height);
     formData.append('email', data.email);
     formData.append('phone', data.phone);
+    formData.append('ity', data.city)
     formData.append('design-description', data.designDescription);
     if (data.designFile) formData.append('design-file', data.designFile[0]);
     if (data.designFile1) formData.append('design-file-1', data.designFile1[0]);
@@ -74,6 +75,10 @@ function Booking() {
           id="phone"
           {...register('phone', { required: true })}
         />
+        <label htmlFor="city">City: </label>
+        <input type='text' id='city'
+        {...register('city', {required:true})}></input>
+        {errors.city && <p>City is required</p>}
         {errors.phone && <p>Phone number is required</p>}
         <label htmlFor="designFile">Photo of the body part:</label>
         <input
