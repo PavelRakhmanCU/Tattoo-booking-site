@@ -364,7 +364,6 @@ border: 0.1rem solid var(--clr1);
   font-size: 1em;
     font-weight: bold;
     color: var(--jetBlack);
-    background-color: var(--Gray);
     display: flex;
     align-items:center ;
     
@@ -373,6 +372,7 @@ border: 0.1rem solid var(--clr1);
 
 /*General Info styles*/
 .general-info-container
+
 {
  position: absolute;
  top:95%;
@@ -533,4 +533,10 @@ padding: 0.5rem;
 }
 
 
+.gallery-description
+{
+color: white;
+margin-bottom: 0.5em;
+padding: 0.2em;
+}
 
