@@ -59,11 +59,11 @@ For large projects, I can arrange a video consultation beforehand to discuss des
     <div className="general-info-heading">Payment and Deposits</div>
     <div className="general-info-text">
         <ul>
-            <li><span style={{fontWeight:'bold'}}>Full-day session:</span> $1,800</li>
+            <li><span style={{fontWeight:'bold'}}>Full-day session:</span> $2,200</li>
             <li><span style={{fontWeight:'bold'}}>Hourly rate:</span> $300/hour (for smaller or time-based projects)</li>
             <li>Payment is due immediately after each session</li>
         </ul>
-        <p>A $400 non-refundable deposit is required to confirm your booking.
+        <p>A $500 non-refundable deposit is required to confirm your booking.
 It can be paid in cash, via Zelle, or Venmo.
 The deposit secures your dates and will be applied to your final session (or your single session, if applicable).</p>
     </div>
